@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require './lib/pet_poisons'
+
+PetPoisons::CLI.new.call
+

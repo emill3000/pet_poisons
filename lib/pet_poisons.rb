@@ -1,5 +1,3 @@
-require "pet_poisons/version"
-
-module PetPoisons
-  # Your code goes here...
-end
+require_relative './pet_poisons/version'
+require_relative './pet_poisons/poison'
+require_relative './pet_poisons/cli'
